@@ -1,0 +1,32 @@
+package proj2;
+
+public class Card {
+	
+	private Rank cardRank;
+	private Suit cardSuit;
+	
+	
+	public Card(Rank cardRank, Suit cardSuit) {
+		this.cardRank = cardRank;
+		this.cardSuit = cardSuit;
+	}
+	public String toString()
+	{
+		return("Card Rank: "+ this.getCardRank()+" , Card Suit: "+this.getCardSuit());
+	}
+	public Rank getCardRank() {
+		return cardRank;
+	}
+	public void setCardRank(Rank cardRank) {
+		this.cardRank = cardRank;
+	}
+	public Suit getCardSuit() {
+		return cardSuit;
+	}
+	public void setCardSuit(Suit cardSuit) {
+		this.cardSuit = cardSuit;
+	}
+	
+	
+
+}

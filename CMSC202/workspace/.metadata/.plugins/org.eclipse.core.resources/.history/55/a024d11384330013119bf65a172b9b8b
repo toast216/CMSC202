@@ -1,0 +1,15 @@
+package proj2;
+import java.util.*;
+
+
+
+public class Deck {
+
+	public static void main(String[] args)
+	{
+		System.out.println(Rank.values().toString());
+	}
+	ArrayList<Card> deck = new ArrayList<Card>();
+	
+	
+}
